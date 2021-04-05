@@ -10,7 +10,7 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
-  background-image: url("Images/background-image.png");
+  /* background-image: url("img/background-image.png"); */
 }
 
 /* Container Around About Me */
