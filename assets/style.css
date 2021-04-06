@@ -2,20 +2,25 @@ html, body {
   height: 100%;
 }
 
-/* Navbar Link Text */
-.nav-item {
-    font-weight: bold;
+.navbar {
+  background-color:#2E1437;
+  opacity: 0.6; 
+}
+
+li {
+  color: white;
 }
 
 body {
   display: flex;
   flex-direction: column;
-  /* background-image: url("img/background-image.png"); */
+  color: white;
+  background-color: #51425F;
 }
 
 /* Container Around About Me */
 #aboutme {
-    background-color: #D7DADE;
+    background-color: #948E99;
     float: left;
     margin-left: 15px;
     margin-right: 15px; 
@@ -28,7 +33,7 @@ body {
 /* Container Around Contact Form */
 .container-sm {
   padding-bottom: 30px;
-  background-color: #C9BBC5;
+  background-color: #948E99;
   border: 1px solid #8d6f8d;
   border-radius: 5px;
 }
@@ -81,12 +86,16 @@ body {
 /* Sticky Footer */
   footer {
     flex-shrink: 0;
-    color: white;
+    color: #E7EED0;
     text-align: center;
-    border-top: solid 3px #7a617a;
-    background-color: #453641;
+    border-top: solid 3px #948E99;
+    background-color: #2E1437;
 }
 
 img:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#aboutme {
+  padding: 20px;
 }
