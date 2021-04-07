@@ -21,7 +21,7 @@ body {
 
 /* Container Around About Me */
 #aboutme {
-    background-color: #304876;
+    background-color: #565982;
     float: left;
     margin-left: 15px;
     margin-right: 15px;
@@ -59,7 +59,8 @@ body {
 
 #contactform {
   padding-top: 3px;
-  background-color: #D7DADE;
+  background-color: #829cb4;
+  border-radius: 5px;
 }
 
  /* Bio Image */
@@ -72,16 +73,20 @@ body {
  #social-links {
   padding-top: 3px;
   float: right;
-  background-color: #D7DADE;
+  background-color: #829cb4;
+  border-radius: 5px;
 } 
 
-/* Project Titles On Portfolio Page */
+/* Project Titles On Portfolio */
 .title {
   justify-items: center;
 }
 
+/* LinkedIn and Github Icons on Contact */
 .icon {
-  justify-content: center;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
 }
 
 /* Sticky Footer */
@@ -94,7 +99,7 @@ body {
 }
 
 img:hover {
-  box-shadow: 0 0 2px 1px #248F8D;
+  box-shadow: 0 0 2px 1px #ea8bb7;
 }
 
 #aboutme {
@@ -107,5 +112,31 @@ img:hover {
   text-align: center;
   color: white;
   padding: 30px;
-  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Langar', cursive;
+}
+
+.card {
+  color: black;
+}
+
+h3 {
+  margin-top: 10px;
+}
+
+/* PDF Logo on Contact */
+#adobe {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+/* Resume Card on Contact */
+#resume {
+  background-color: white;
+  margin-bottom: 10px;
+}
+
+#social {
+  background-color: white;
+  margin-bottom: 10px;
 }
