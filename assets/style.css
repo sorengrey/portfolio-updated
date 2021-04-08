@@ -11,12 +11,14 @@ html, body {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Helvetica;
   display: flex;
   flex-direction: column;
   color: white;
   background-image: url(./img/moss-bg-darker.jpg);
-  background-size: cover;
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* Container Around About Me */
@@ -29,6 +31,8 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 30px;
+    border-radius: 5px;
+    border: solid 1px #ea8bb7;
 }
 
 /* Container Around Portfolio Images */
@@ -55,7 +59,15 @@ body {
 #profile-img {
     margin-right: 12px;
     margin-bottom: 12px;
+    border-radius: 50%;
 }
+
+ /* Kitty Image */
+ #kitties {
+ border-radius: 50%;
+ margin-left: 12px;
+ margin-bottom: 12px;
+ }
 
 /* Social Media Links on Contact */
  #social-links {
@@ -101,8 +113,10 @@ img:hover {
   color: white;
   padding: 20px;
   font-family: 'Raleway', sans-serif;
+  margin-bottom: -5px;
 }
 
+/* Sets The Card Text Color */
 .card {
   color: black;
 }
@@ -138,4 +152,21 @@ h3 {
 /* Button Hover Animation */
 .btn:hover {
   box-shadow: 0 0 2px 2px #ea8bb7;
+}
+
+/* All List Items */
+li {
+  background-color: #ea8bb7;
+}
+
+/* Skills */
+.list-group-item {
+  background-color: #ea8bb7;
+  color: white;
+}
+
+/* Second Column of Skills */
+.li2 {
+  margin-left: 4px;
+  margin-right: 4px;
 }
