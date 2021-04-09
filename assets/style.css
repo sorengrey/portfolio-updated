@@ -18,7 +18,7 @@ body {
   background-image: url(./img/moss-bg-darker.jpg);
   background-size: auto;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 
 /* Container Around About Me */
@@ -53,6 +53,10 @@ body {
   padding-top: 3px;
   background-color: #829cb4;
   border-radius: 5px;
+  margin: auto;
+	width: 60%;
+  padding: 10px;
+  border: solid 1px #ea8bb7;
 }
 
  /* Bio Image */
@@ -109,7 +113,7 @@ img:hover {
   color: white;
   padding: 20px;
   font-family: 'Raleway', sans-serif;
-  margin-bottom: -5px;
+  margin-bottom: -11px;
 }
 
 /* Sets The Card Text Color */
@@ -170,4 +174,9 @@ li {
 .portfolio-title {
   background-color: black;
   opacity: 0.6;
+}
+
+.small-middle-container{
+	margin: auto;
+	width: 60%;
 }
