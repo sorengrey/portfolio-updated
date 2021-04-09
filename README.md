@@ -1,7 +1,13 @@
-### Heather Smith
-Full stack developer
+## Heather Smith
+Full Stack Developer
 
 ![screenshot of portfolio website](./assets/img/readme-screenshot.png?raw=true "screenshot of website")
-[Click here for the deployed website.](https://drive.google.com/file/d/1qE-Zrs344kqTbqI--UQsE-3cQNJh4DmW/view?usp=sharing)<br><br>
+<br>
+[Click here for the deployed website.](https://sorengrey.github.io/portfolio-updated/)
+<br>
+<br>
 
-This is my personal website, set up to display some of the projects I have worked on.
+This is my personal portfolio website. I set it up for future employers to show off my skills and some of the projects I've worked on.
+It is written in HTML and CSS with the help of the Bootstrap CSS framework.
+
+
