@@ -54,7 +54,7 @@ body {
 
 /* Container Around Portfolio Images */
 #portfolio-images {
-  background-color: #676a9e;
+  background-color: #829cb4;
   margin-top: 15px;
   padding-top: 5px;
   padding-bottom: 25px;
@@ -123,6 +123,7 @@ img:hover {
 .card {
   color: black;
   margin-right: 5px;
+  margin-top: 3px;;
 }
 
 h3 {
@@ -167,6 +168,7 @@ li {
 .list-group-item {
   background-color: #ea8bb7;
   color: white;
+  margin-left: 10px;
 }
 
 .list-group-item:hover {
