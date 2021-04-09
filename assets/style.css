@@ -11,7 +11,7 @@ html, body {
 }
 
 .nav-link:hover {
-  background-color: #676a9e;
+  background-color: #829cb4;
 }
 
 body {
@@ -21,8 +21,7 @@ body {
   color: white;
   background-image: url(./img/moss-bg-darker.jpg);
   background-size: auto;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-position: static;
 }
 
 /* Container Around About Me */
@@ -37,6 +36,7 @@ body {
     border: solid 1px #ea8bb7;
     width: 60%;
 }
+
 /* About Me Text on Home */
 #aboutme {
   padding: 20px;
@@ -119,8 +119,6 @@ img:hover {
   box-shadow: 0 0 2px 2px #ea8bb7;
 }
 
-
-
 /* Sets The Card Text Color */
 .card {
   color: black;
@@ -171,8 +169,46 @@ li {
   color: white;
 }
 
+.list-group-item:hover {
+  background-color: #829cb4;
+  color: white;
+}
+
 /* Second Column of Skills */
 .li2 {
   margin-left: 4px;
   margin-right: 4px;
+}
+
+b {
+  font-size: 1.2em;
+}
+
+@media (min-width: 768px) {
+  .container-small {
+      width: 300px;
+  }
+  .container-large {
+      width: 970px;
+  } 
+} 
+@media (min-width: 992px) {
+  .container-small {
+      width: 500px;
+  }
+  .container-large {
+      width: 1170px;
+  } 
+} 
+@media (min-width: 1200px) {
+  .container-small {
+      width: 700px;
+  }
+  .container-large {
+      width: 1500px;
+  } 
+}
+
+.container-small, .container-large {
+  max-width: 100%;
 }
