@@ -10,6 +10,10 @@ html, body {
   background-image: linear-gradient(to right, #304876 , #ea8bb7);
 }
 
+.nav-link:hover {
+  background-color: #676a9e;
+}
+
 body {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Helvetica;
   display: flex;
@@ -18,21 +22,34 @@ body {
   background-image: url(./img/moss-bg-darker.jpg);
   background-size: auto;
   background-position: center;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
 }
 
 /* Container Around About Me */
 #aboutme {
     background-color: #676a9e;
-    float: left;
     margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 10px; 
+    margin: auto;
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 30px;
     border-radius: 5px;
     border: solid 1px #ea8bb7;
+    width: 60%;
+}
+/* About Me Text on Home */
+#aboutme {
+  padding: 20px;
+}
+
+/* Box Around My Name */
+.box {
+  background-color: black;
+  opacity: .6;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-family: 'Raleway', sans-serif;
 }
 
 /* Container Around Portfolio Images */
@@ -40,7 +57,10 @@ body {
   background-color: #676a9e;
   margin-top: 15px;
   padding-top: 5px;
-  padding-bottom: 30px;
+  padding-bottom: 25px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  width: 65%;
 }
 
 /* Images Inside Portfolio Container */
@@ -54,7 +74,7 @@ body {
   background-color: #829cb4;
   border-radius: 5px;
   margin: auto;
-	width: 60%;
+	width: 55%;
   padding: 10px;
   border: solid 1px #ea8bb7;
 }
@@ -78,7 +98,6 @@ body {
   padding-top: 3px;
 } 
 
-
 /* LinkedIn and Github Icons on Contact */
 .icon {
   height: 50px;
@@ -100,25 +119,12 @@ img:hover {
   box-shadow: 0 0 2px 2px #ea8bb7;
 }
 
-/* About Me Text on Home */
-#aboutme {
-  padding: 20px;
-}
 
-/* Box Around My Name */
-.box {
-  background-color: black;
-  opacity: .6;
-  text-align: center;
-  color: white;
-  padding: 20px;
-  font-family: 'Raleway', sans-serif;
-  margin-bottom: -11px;
-}
 
 /* Sets The Card Text Color */
 .card {
   color: black;
+  margin-right: 5px;
 }
 
 h3 {
@@ -169,14 +175,4 @@ li {
 .li2 {
   margin-left: 4px;
   margin-right: 4px;
-}
-
-.portfolio-title {
-  background-color: black;
-  opacity: 0.6;
-}
-
-.small-middle-container{
-	margin: auto;
-	width: 60%;
 }
